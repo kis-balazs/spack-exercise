@@ -42,8 +42,8 @@ class SpackExercise(CMakePackage):
 
 
     dependencies = {
-        'boost@1.65.1:': '@0.2.0',
-        'yaml-cpp@0.7.0:': '@0.3.0'
+        'boost@1.65.1:': '@0.2.0:',
+        'yaml-cpp@0.7.0:': '@0.3.0:'
     }
 
     for d, wh in dependencies.items():
